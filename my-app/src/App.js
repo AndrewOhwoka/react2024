@@ -13,7 +13,7 @@ function App() {
   // Fetch aircraft data
   const loadAircraft = useCallback(async () => {
     try {
-      const response = await fetchAircraft(); // API call to fetch aircraft data
+      const response = await fetchAircraft(); // API call to fetch aircraft data// axios
       setAircraft(response);
     } catch (error) {
       console.error("Failed to load aircraft:", error);
